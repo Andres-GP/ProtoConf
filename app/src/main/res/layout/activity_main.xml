@@ -9,7 +9,7 @@
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <!--<Toolbar
+        <Toolbar
             android:background="?attr/colorPrimary"
             android:id="@+id/toolbarMain"
             android:layout_width="match_parent"
@@ -23,7 +23,7 @@
                 android:src="@drawable/logo_protoconf"
 
                 />
-        </Toolbar>-->
+        </Toolbar>-
     </com.google.android.material.appbar.AppBarLayout>
     <RelativeLayout
         android:layout_width="match_parent"

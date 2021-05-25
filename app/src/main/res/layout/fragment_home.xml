@@ -3,12 +3,198 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.HomeFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.HomeFragment"
+    android:background="@color/BackgroundColor"
+    >
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:background="@color/homepage_cardBackgroundColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/homePage_cardCornerRadius"
+                app:cardElevation="25dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp">
+                <LinearLayout
+                    android:background="@drawable/bnv_shape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/imageViewHomeHeight"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/conference" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/homepage_1stCard_title"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/homePage_card_titleSize"
+                        android:textColor="@color/white"
+                        android:layout_marginRight="22dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="15dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ZacWolf_name"
+                        android:textSize="@dimen/homePage_card_descriptionSize"
+                        android:layout_marginRight="22dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/homepage_descriptionAuthor_textColor"/>
+                    />
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/homepage_1stCard_DescriptionContent"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/homePage_card_descriptionSize"
+                        android:textColor="@color/homepage_descriptionContent_textColor"
+                        android:layout_marginRight="22dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="30dp"
+                        />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:background="@color/homepage_cardBackgroundColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/homePage_cardCornerRadius"
+                app:cardElevation="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp">
+                <LinearLayout
+                    android:background="@drawable/bnv_shape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/imageViewHomeHeight"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/conference_1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/homepage_2ndCard_title"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/homePage_card_titleSize"
+                        android:textColor="@color/white"
+                        android:layout_marginRight="22dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="15dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ClaudiaSosa_name"
+                        android:textSize="@dimen/homePage_card_descriptionSize"
+                        android:layout_marginRight="22dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/homepage_descriptionAuthor_textColor"/>
+                    />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/homepage_2ndCard_DescriptionContent"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/homePage_card_descriptionSize"
+                        android:textColor="@color/homepage_descriptionContent_textColor"
+                        android:layout_marginRight="22dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="30dp"
+                        />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:background="@color/homepage_cardBackgroundColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/homePage_cardCornerRadius"
+                app:cardElevation="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp">
+                <LinearLayout
+                    android:background="@drawable/bnv_shape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/imageViewHomeHeight"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/conference_2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/homepage_3rdCard_title"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/homePage_card_titleSize"
+                        android:textColor="@color/white"
+                        android:layout_marginRight="22dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="15dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/CristianBuehner_name"
+                        android:textSize="@dimen/homePage_card_descriptionSize"
+                        android:layout_marginRight="22dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/homepage_descriptionAuthor_textColor"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/homepage_3rdCard_DescriptionContent"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/homePage_card_descriptionSize"
+                        android:textColor="@color/homepage_descriptionContent_textColor"
+                        android:layout_marginRight="22dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="30dp"
+                        />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
 
 </FrameLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor">
+
+    <LinearLayout
+        android:background="@color/BackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/scheduleItem_exhibitorPhoto_height"
+                android:layout_margin="10dp"
+                android:src="@drawable/claudia_sosa_schedule" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="8dp"
+                android:id="@+id/tvItemScheduleTopic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scheduleItem_1stItem_Topic"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ScheduleItem_topicTitle"
+                android:ellipsize="end"
+                android:lines="1"/>
+            <TextView
+                android:id="@+id/tvItemScheduleName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/scheduleItem_1stItem_author"
+                android:textColor="@color/schedule_name_textColor"
+                android:textSize="@dimen/ScheduleItem_name"/>
+            <TextView
+                android:id="@+id/tvItemScheduleHour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/scheduleItem_1stItem_hour"
+                android:textColor="@color/schedule_name_textColor"
+                android:textSize="@dimen/ScheduleItem_name"/>
+            <TableRow
+                android:layout_width="295dp"
+                android:layout_height="1dp"
+                android:background="#333333"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

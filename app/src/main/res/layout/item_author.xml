@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/homepage_cardBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/homePage_cardCornerRadius"
+    app:cardElevation="25dp"
+    android:layout_marginTop="70dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginLeft="17dp">
+    <LinearLayout
+        android:background="@drawable/authors_card_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/imageViewHomeHeight"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/claudia_sosa_small_author" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ClaudiaSosa_name"
+            android:textStyle="bold"
+            android:textSize="@dimen/homePage_card_titleSize"
+            android:textColor="@color/white"
+            android:layout_marginRight="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ClaudiaSosa_profession"
+            android:textSize="@dimen/homePage_card_descriptionSize"
+            android:layout_marginRight="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/homepage_descriptionAuthor_textColor"/>
+        />
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

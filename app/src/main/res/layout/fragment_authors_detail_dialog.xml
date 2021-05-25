@@ -1,14 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.AuthorsDetailDialogFragment">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/scheduleDetail_toolbarBackgroundColor">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content">
+        <Toolbar
+            android:id="@+id/toolbarConference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/scheduleDetail_toolbarBackgroundColor"/>
+    </com.google.android.material.appbar.AppBarLayout>-
 
-</FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginTop="65dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/claudia_sosa_big_conference"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp" />
+                </RelativeLayout>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/tvItemScheduleDetailTopic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ClaudiaSosa_name"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/ScheduleItem_topicTitle"
+                    android:lines="1"
+                    android:gravity="center_horizontal"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tvItemScheduleDetailHour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ClaudiaSosa_profession"
+                    android:textColor="@color/scheduleDetail_descriptionAndHourColor"
+                    android:textSize="@dimen/ScheduleItem_name"
+                    android:gravity="center_horizontal"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:id="@+id/tvItemScheduleDetailDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ClaudiaSosa_careerDescription"
+                    android:textColor="@color/scheduleDetail_descriptionAndHourColor"
+                    android:textSize="@dimen/ScheduleItem_name"
+                    android:gravity="center_horizontal"/>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

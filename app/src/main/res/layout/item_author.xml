@@ -18,12 +18,14 @@
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/itemAuthorImage"
             android:layout_width="match_parent"
             android:layout_height="@dimen/imageViewHomeHeight"
             android:layout_marginTop="20dp"
             android:src="@drawable/claudia_sosa_small_author" />
 
         <TextView
+            android:id="@+id/itemAuthorName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/ClaudiaSosa_name"
@@ -35,6 +37,7 @@
             android:layout_marginTop="15dp"
             android:gravity="center_horizontal"/>
         <TextView
+            android:id="@+id/itemAuthorOccupation"
             android:gravity="center_horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

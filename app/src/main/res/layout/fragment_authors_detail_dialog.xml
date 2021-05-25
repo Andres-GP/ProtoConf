@@ -37,7 +37,7 @@
                 </RelativeLayout>
                 <TextView
                     android:layout_marginTop="20dp"
-                    android:id="@+id/tvItemScheduleDetailTopic"
+                    android:id="@+id/authorsDetailDialogName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/ClaudiaSosa_name"
@@ -47,7 +47,7 @@
                     android:gravity="center_horizontal"/>
                 <TextView
                     android:layout_marginTop="5dp"
-                    android:id="@+id/tvItemScheduleDetailHour"
+                    android:id="@+id/authorsDetailDialogOccupation"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/ClaudiaSosa_profession"
@@ -58,7 +58,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:id="@+id/tvItemScheduleDetailDescription"
+                    android:id="@+id/authorsDetailDialogDescription"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/ClaudiaSosa_careerDescription"

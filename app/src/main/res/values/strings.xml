@@ -2,7 +2,6 @@
     <string name="app_name">ProtoConf</string>
 
 
-
     <!--Multiple use-->
 
     <!--Authors-->
@@ -21,13 +20,6 @@
     <string name="CristinaRivers_profession">Influencer</string>
 
 
-
-
-
-
-
-
-
     <!--1st Screen-->
 
     <!--1st Card -->
@@ -41,10 +33,6 @@
     <!--3rd Card -->
     <string name="homepage_3rdCard_title">How to develop your career</string>
     <string name="homepage_3rdCard_DescriptionContent">  Exclusive event for people with common subscription benefits, 1 hour long, all assistants will receive special offers and traveling promotions.</string>
-
-
-
-
 
 
     <!--2nd Screen-->
@@ -82,13 +70,6 @@
     <string name="scheduleDetail_1stAuthor_ClaudiaSosa_description">Here you will learn how to improve your communication skills, how to practice and perform at a very high level public speechs and how to focus and manage emotions regarding to communication situations</string>
 
 
-
-
-
-
-
-
-
     <!--3rd Screen-->
 
 
@@ -102,9 +83,6 @@
     <string name="CristianBuehner_careerDescription">Cristian Buehner is the marketing Chief and chief of ADB Media US, he takes care of all marketing activities in North and South America as well as Australia and New Zealand. Well known for his studies in Harvard and Yale, he has a PHD in Neuro-Marketing</string>
     <string name="SigmundMarlraj_careerDescription">Sigmund Mariraj is president and chief executive officer of Falmpton Financial Services USA, and oversees all of the company’s financial services activities in North and South America as well as Australia and New Zealand. He is also the president </string>
     <string name="CristinaRivers_careerDescription">Born in America, Cristina gained fame through a famous TV show “Laguna Beach.” Today she is a style influencer, a designer, and an author. She launched her the LC Lauren Conrad collection with Kohls in 2009 and has been working with the brand ever since.  Cristina is also a founder of Paper Crown, and the co-founder of the fair trade online store The Little Market.d fame through a famous TV show “Laguna Beach.” Today she is a style influencer, a designer, and an author.</string>
-
-
-
 
 
     <!--4th Screen-->
@@ -129,7 +107,8 @@
     <string name="Hotel_address_LasPalmasHotel">JWV7+5C Nova Marabá, Marabálio - State of Pará, Brasil</string>
     <string name="Hotel_address_HiltonKingsHotel">9GJ8+C2 São Miguel do Guamá, State of Parámalar, Brasil</string>
     <string name="Hotel_address_PalmiraResort">4W9J+7C Juncadao do Maranhão, State of Maranhãolaminba, Brasil</string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

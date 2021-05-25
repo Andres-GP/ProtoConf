@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/BackgroundColor">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--<Toolbar
+            android:background="?attr/colorPrimary"
+            android:id="@+id/toolbarMain"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:layout_anchor="@+id/appBarLayout"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/toolbarHeight"
+                android:layout_centerInParent="true"
+                android:src="@drawable/logo_protoconf"
+
+                />
+        </Toolbar>-->
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <!--
+        <fragment
+            android:id="@+id/fragContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottomBar"
+            app:navGraph="@navigation/nav_graph"
+            app:defaultNavHost="true"/>
+            -->
+
+        <!--
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bnv_menu"
+            android:layout_margin="17dp"
+            android:elevation="10dp"
+            android:background="@drawable/bnv_shape"
+            app:labelVisibilityMode="unlabeled"
+            app:itemIconSize="27dp"
+            app:itemRippleColor="@android:color/transparent"
+            app:itemIconTint="@drawable/bnv_item_selector"
+            android:id="@+id/bottomBar"/>
+            -->
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

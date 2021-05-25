@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">ProtoConf</string>
+
+
+
+    <!--Multiple use-->
+
+    <!--Authors-->
+    <string name="ClaudiaSosa_name">Claudia Sosa</string>
+    <string name="ZacWolf_name">Zac Wolf</string>
+    <string name="CristianBuehner_name">Cristian Buehner</string>
+    <string name="SigmundMarlraj_name">Sigmund Marlraj</string>
+    <string name="CristinaRivers_name">Cristina Rivers</string>
+
+
+    <!--Professions-->
+    <string name="ClaudiaSosa_profession">Teacher</string>
+    <string name="ZacWolf_profession">UX-UI designer</string>
+    <string name="CristianBuehner_profession">Marketing Chief</string>
+    <string name="SigmundMarlraj_profession">Ceo</string>
+    <string name="CristinaRivers_profession">Influencer</string>
+
+
+
+
+
+
+
+
+
+    <!--1st Screen-->
+
+    <!--1st Card -->
+    <string name="homepage_1stCard_title">Info ProtoConf 2021</string>
+    <string name="homepage_1stCard_DescriptionContent">  Exclusive event for people with expert subscription, 1 day long, Best hotels to stay.</string>
+
+    <!--2nd Card -->
+    <string name="homepage_2ndCard_title">How to communicate effectively</string>
+    <string name="homepage_2ndCard_DescriptionContent">  Open event for all people, 1 hour long, gifts and special offers to all assistants.</string>
+
+    <!--3rd Card -->
+    <string name="homepage_3rdCard_title">How to develop your career</string>
+    <string name="homepage_3rdCard_DescriptionContent">  Exclusive event for people with common subscription benefits, 1 hour long, all assistants will receive special offers and traveling promotions.</string>
+
+
+
+
+
+
+    <!--2nd Screen-->
+
+    <!--1st Item-->
+    <string name="scheduleItem_1stItem_Topic">How to communicate effectively</string>
+    <string name="scheduleItem_1stItem_author">Claudia Sosa</string>
+    <string name="scheduleItem_1stItem_hour">10:30 AM</string>
+
+    <!--2nd Item-->
+    <string name="scheduleItem_2ndItem_Topic">How to develop your career</string>
+    <string name="scheduleItem_2ndItem_author">Zac Wolf</string>
+    <string name="scheduleItem_2ndItem_hour">11:30 AM</string>
+
+    <!--3rd Item-->
+    <string name="scheduleItem_3rdItem_Topic">How to make your bussines grow</string>
+    <string name="scheduleItem_3rdItem_author">Sigmund Marlraj</string>
+    <string name="scheduleItem_3rdItem_hour">1:00 PM</string>
+
+
+    <!--4th Item-->
+    <string name="scheduleItem_4thItem_Topic">How to overcome a recession</string>
+    <string name="scheduleItem_4thItem_author">Cristina Rivers</string>
+    <string name="scheduleItem_4thItem_hour">2:00 PM</string>
+
+
+    <!--5th Item-->
+    <string name="scheduleItem_5thItem_Topic">Manage your time</string>
+    <string name="scheduleItem_5thItem_author">Cristian Buehner</string>
+    <string name="scheduleItem_5thItem_hour">4:30 PM</string>
+
+    <!--Detail Screen-->
+
+    <!--conference descriptions-->
+    <string name="scheduleDetail_1stAuthor_ClaudiaSosa_description">Here you will learn how to improve your communication skills, how to practice and perform at a very high level public speechs and how to focus and manage emotions regarding to communication situations</string>
+
+
+
+
+
+
+
+
+
+    <!--3rd Screen-->
+
+
+    <!--Card Item-->
+
+    <!--Card Detail Screen-->
+
+    <!--career descriptions-->
+    <string name="ClaudiaSosa_careerDescription">Born in England, Claudia was well known for her achievments in research about social conducts, she has been teacher of psychology and social condct in people with special conditions, she has 3 masters in multiple careers</string>
+    <string name="ZacWolf_careerDescription">along with Yann Le Beux and Camille Kramer Courbariaux founded YUX. Daniel is the Lead UX/UI designer at YUX. This is a UX Design company based in Senegal and Cote D’Ivoire that designs experiences and products for social good.</string>
+    <string name="CristianBuehner_careerDescription">Cristian Buehner is the marketing Chief and chief of ADB Media US, he takes care of all marketing activities in North and South America as well as Australia and New Zealand. Well known for his studies in Harvard and Yale, he has a PHD in Neuro-Marketing</string>
+    <string name="SigmundMarlraj_careerDescription">Sigmund Mariraj is president and chief executive officer of Falmpton Financial Services USA, and oversees all of the company’s financial services activities in North and South America as well as Australia and New Zealand. He is also the president </string>
+    <string name="CristinaRivers_careerDescription">Born in America, Cristina gained fame through a famous TV show “Laguna Beach.” Today she is a style influencer, a designer, and an author. She launched her the LC Lauren Conrad collection with Kohls in 2009 and has been working with the brand ever since.  Cristina is also a founder of Paper Crown, and the co-founder of the fair trade online store The Little Market.d fame through a famous TV show “Laguna Beach.” Today she is a style influencer, a designer, and an author.</string>
+
+
+
+
+
+    <!--4th Screen-->
+
+
+    <!--Map-->
+
+    <!--Ubication detail Screen-->
+
+    <!--Hotel names-->
+    <string name="Hotel_names_LasPalmasHotel">Las Palmas Hotel</string>
+    <string name="Hotel_names_HiltonKingsHotel">Hilton King’s Hotel</string>
+    <string name="Hotel_names_PalmiraResort">Palmira Resort</string>
+
+    <!--Hotel phone numbers-->
+    <string name="Hotel_phones_LasPalmasHotel">+55 98985166937982</string>
+    <string name="Hotel_phones_HiltonKingsHotel">+55 912909921623314</string>
+    <string name="Hotel_phones_PalmiraResort">+55 9433234732</string>
+
+
+    <!--Hotel address-->
+    <string name="Hotel_address_LasPalmasHotel">JWV7+5C Nova Marabá, Marabálio - State of Pará, Brasil</string>
+    <string name="Hotel_address_HiltonKingsHotel">9GJ8+C2 São Miguel do Guamá, State of Parámalar, Brasil</string>
+    <string name="Hotel_address_PalmiraResort">4W9J+7C Juncadao do Maranhão, State of Maranhãolaminba, Brasil</string>
+
+
+
+</resources>

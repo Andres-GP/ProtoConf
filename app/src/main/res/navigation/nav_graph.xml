@@ -9,8 +9,8 @@
 
     <fragment
         android:id="@+id/navHomeFragment"
-        android:name="com.protompany.protoconf.ui.fragments.UbicationFragment"
-        android:label="fragment_ubication"
+        android:name="com.protompany.protoconf.ui.fragments.HomeFragment"
+        android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_navHomeFragment_to_navScheduleFragment2"
@@ -23,8 +23,8 @@
 
     <fragment
         android:id="@+id/navScheduleFragment"
-        android:name="com.protompany.protoconf.ui.fragments.HomeFragment"
-        android:label="fragment_home"
+        android:name="com.protompany.protoconf.ui.fragments.ScheduleFragment"
+        android:label="fragment_schedule"
         tools:layout="@layout/fragment_schedule" >
         <action
             android:id="@+id/action_navScheduleFragment_to_navAuthorsFragment"
@@ -40,8 +40,8 @@
 
     <fragment
         android:id="@+id/navAuthorsFragment"
-        android:name="com.protompany.protoconf.ui.fragments.ScheduleFragment"
-        android:label="fragment_schedule"
+        android:name="com.protompany.protoconf.ui.fragments.AuthorsFragment"
+        android:label="fragment_authors"
         tools:layout="@layout/fragment_authors" >
         <action
             android:id="@+id/action_navAuthorsFragment_to_navUbicationFragment"
@@ -57,11 +57,11 @@
 
     <fragment
         android:id="@+id/navUbicationFragment"
-        android:name="com.protompany.protoconf.ui.fragments.AuthorsFragment"
-        android:label="fragment_authors"
+        android:name="com.protompany.protoconf.ui.fragments.UbicationFragment"
+        android:label="fragment_ubication"
         tools:layout="@layout/fragment_ubication" >
         <action
-            android:id="@+id/action_navUbicationFragment_to_ubicationDetailFragmentDialog4"
+            android:id="@+id/action_navUbicationFragment_to_ubicationDetailFragmentDialog"
             app:destination="@id/ubicationDetailFragmentDialog" />
     </fragment>
 
@@ -77,7 +77,7 @@
     <dialog
         android:id="@+id/scheduleDetailFragmentDialog"
         android:name="com.protompany.protoconf.ui.fragments.ScheduleDetailDialogFragment"
-        android:label="ScheduleDetailFragment"
+        android:label="scheduleDetailFragmentDialog"
         tools:layout="@layout/fragment_schedule_detail_dialog"/>
 
     <dialog
@@ -90,6 +90,6 @@
     <dialog
         android:id="@+id/ubicationDetailFragmentDialog"
         android:name="com.protompany.protoconf.ui.fragments.UbicationDetailDialogFragment"
-        android:label="UbicationDetailFragmentDialog"
+        android:label="ubicationDetailFragmentDialog"
         tools:layout="@layout/fragment_ubication_detail_dialog"/>
 </navigation>

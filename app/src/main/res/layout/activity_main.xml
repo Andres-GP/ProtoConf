@@ -32,12 +32,12 @@
 
 
         <fragment
-            android:id="@+id/fHomeScheduleSpeakersLocation"
+            android:id="@+id/fragContent"
             android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/bottomBar"
-            android:layout_marginBottom="59dp"
+            android:layout_marginBottom="0dp"
             app:defaultNavHost="true"
             app:navGraph="@navigation/nav_graph" />
 
@@ -46,23 +46,16 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             app:menu="@menu/bnv_menu"
-            android:layout_margin="17dp"
-            android:elevation="10dp"
+            android:elevation="25dp"
             android:background="@drawable/bnv_shape"
             app:labelVisibilityMode="unlabeled"
-            app:itemIconSize="27dp"
-            app:itemRippleColor="@android:color/transparent"
+            app:itemIconSize="23dp"
+            app:itemRippleColor="@color/ColorSecondaryVariant"
             app:itemIconTint="@drawable/bnv_item_selector"
-            android:id="@+id/bottomBar"/>
+            android:id="@+id/bottomBar"
+            />
 
 
     </RelativeLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-
-    <!--android:id="@+id/fragContent"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_above="@+id/bottomBar"
-                app:navGraph="@navigation/nav_graph"
-                app:defaultNavHost="true"-->

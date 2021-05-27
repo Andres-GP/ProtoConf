@@ -17,7 +17,8 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
-                android:background="@color/homepage_cardBackgroundColor"
+                android:background="@color/ColorPrimary"
+                app:cardBackgroundColor="@color/ColorPrimary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="@dimen/homePage_cardCornerRadius"
@@ -27,7 +28,7 @@
                 android:layout_marginRight="17dp"
                 android:layout_marginLeft="17dp">
                 <LinearLayout
-                    android:background="@drawable/bnv_shape"
+                    android:background="@drawable/home_card_shape"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -75,7 +76,8 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:background="@color/homepage_cardBackgroundColor"
+                android:background="@color/ColorPrimary"
+                app:cardBackgroundColor="@color/ColorPrimary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="@dimen/homePage_cardCornerRadius"
@@ -85,7 +87,7 @@
                 android:layout_marginRight="17dp"
                 android:layout_marginLeft="17dp">
                 <LinearLayout
-                    android:background="@drawable/bnv_shape"
+                    android:background="@drawable/home_card_shape"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -133,7 +135,8 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:background="@color/homepage_cardBackgroundColor"
+                android:background="@color/ColorPrimary"
+                app:cardBackgroundColor="@color/ColorPrimary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="@dimen/homePage_cardCornerRadius"
@@ -143,7 +146,7 @@
                 android:layout_marginRight="17dp"
                 android:layout_marginLeft="17dp">
                 <LinearLayout
-                    android:background="@drawable/bnv_shape"
+                    android:background="@drawable/home_card_shape"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">

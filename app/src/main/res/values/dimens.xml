@@ -11,7 +11,7 @@
 
     <!--1st Screen-->
     <!--Card-->
-    <dimen name="homePage_cardCornerRadius">32dp</dimen>
+    <dimen name="homePage_cardCornerRadius">35dp</dimen>
     <dimen name="imageViewHomeHeight">175dp</dimen>
     <dimen name="homePage_card_titleSize">22dp</dimen>
 

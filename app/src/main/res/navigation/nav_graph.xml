@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHomeFragment">
+
+
+
+    <fragment
+        android:id="@+id/navHomeFragment"
+        android:name="com.protompany.protoconf.ui.fragments.UbicationFragment"
+        android:label="fragment_ubication"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navHomeFragment_to_navScheduleFragment2"
+            app:destination="@id/navScheduleFragment" />
+    </fragment>
+
+
+
+
+
+    <fragment
+        android:id="@+id/navScheduleFragment"
+        android:name="com.protompany.protoconf.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_schedule" >
+        <action
+            android:id="@+id/action_navScheduleFragment_to_navAuthorsFragment"
+            app:destination="@id/navAuthorsFragment" />
+        <action
+            android:id="@+id/action_navScheduleFragment_to_scheduleDetailFragmentDialog2"
+            app:destination="@id/scheduleDetailFragmentDialog" />
+    </fragment>
+
+
+
+
+
+    <fragment
+        android:id="@+id/navAuthorsFragment"
+        android:name="com.protompany.protoconf.ui.fragments.ScheduleFragment"
+        android:label="fragment_schedule"
+        tools:layout="@layout/fragment_authors" >
+        <action
+            android:id="@+id/action_navAuthorsFragment_to_navUbicationFragment"
+            app:destination="@id/navUbicationFragment" />
+        <action
+            android:id="@+id/action_navAuthorsFragment_to_authorsDetailFragmentDialog3"
+            app:destination="@id/authorsDetailFragmentDialog" />
+    </fragment>
+
+
+
+
+
+    <fragment
+        android:id="@+id/navUbicationFragment"
+        android:name="com.protompany.protoconf.ui.fragments.AuthorsFragment"
+        android:label="fragment_authors"
+        tools:layout="@layout/fragment_ubication" >
+        <action
+            android:id="@+id/action_navUbicationFragment_to_ubicationDetailFragmentDialog4"
+            app:destination="@id/ubicationDetailFragmentDialog" />
+    </fragment>
+
+
+
+
+
+
+
+
+
+
+    <dialog
+        android:id="@+id/scheduleDetailFragmentDialog"
+        android:name="com.protompany.protoconf.ui.fragments.ScheduleDetailDialogFragment"
+        android:label="ScheduleDetailFragment"
+        tools:layout="@layout/fragment_schedule_detail_dialog"/>
+
+    <dialog
+        android:id="@+id/authorsDetailFragmentDialog"
+        android:name="com.protompany.protoconf.ui.fragments.AuthorsDetailDialogFragment"
+        android:label="AuthorDetailFragmentDialog"
+        tools:layout="@layout/fragment_authors_detail_dialog"/>
+
+
+    <dialog
+        android:id="@+id/ubicationDetailFragmentDialog"
+        android:name="com.protompany.protoconf.ui.fragments.UbicationDetailDialogFragment"
+        android:label="UbicationDetailFragmentDialog"
+        tools:layout="@layout/fragment_ubication_detail_dialog"/>
+</navigation>

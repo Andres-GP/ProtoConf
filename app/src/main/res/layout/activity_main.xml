@@ -30,17 +30,17 @@
         android:layout_height="match_parent"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
-        <!--
+
         <fragment
-            android:id="@+id/fragContent"
+            android:id="@+id/fHomeScheduleSpeakersLocation"
+            android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_above="@+id/bottomBar"
-            app:navGraph="@navigation/nav_graph"
-            app:defaultNavHost="true"/>
-            -->
+            android:layout_above="@id/bottomBar"
+            android:layout_marginBottom="59dp"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/nav_graph" />
 
-        <!--
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -54,7 +54,15 @@
             app:itemRippleColor="@android:color/transparent"
             app:itemIconTint="@drawable/bnv_item_selector"
             android:id="@+id/bottomBar"/>
-            -->
+
 
     </RelativeLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    <!--android:id="@+id/fragContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottomBar"
+                app:navGraph="@navigation/nav_graph"
+                app:defaultNavHost="true"-->

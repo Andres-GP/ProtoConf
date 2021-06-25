@@ -2,14 +2,15 @@ package com.protompany.protoconf.viewmodel
 
 
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import com.protompany.protoconf.model.Conference
 import com.protompany.protoconf.network.Callback
 import com.protompany.protoconf.network.FirestoreService
 import java.lang.Exception
 
-class ScheduleViewModel {
+class ScheduleViewModel: ViewModel() {
     val firestoreService = FirestoreService()
-    var listschedule: MutableLiveData<List<Conference>> = MutableLiveData()
+    var listSchedule: MutableLiveData<List<Conference>> = MutableLiveData()
     var isLoading = MutableLiveData<Boolean>()
 
     fun refresh(){

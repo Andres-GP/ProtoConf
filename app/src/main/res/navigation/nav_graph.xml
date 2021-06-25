@@ -10,7 +10,7 @@
     <fragment
         android:id="@+id/navHomeFragment"
         android:name="com.protompany.protoconf.view.ui.fragments.HomeFragment"
-        android:label="fragment_home"
+        android:label="home"
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_navHomeFragment_to_navScheduleFragment2"
@@ -24,7 +24,7 @@
     <fragment
         android:id="@+id/navScheduleFragment"
         android:name="com.protompany.protoconf.view.ui.fragments.ScheduleFragment"
-        android:label="fragment_schedule"
+        android:label="schedule"
         tools:layout="@layout/fragment_schedule" >
         <action
             android:id="@+id/action_navScheduleFragment_to_navAuthorsFragment"
@@ -41,7 +41,7 @@
     <fragment
         android:id="@+id/navAuthorsFragment"
         android:name="com.protompany.protoconf.view.ui.fragments.AuthorsFragment"
-        android:label="fragment_authors"
+        android:label="authors"
         tools:layout="@layout/fragment_authors" >
         <action
             android:id="@+id/action_navAuthorsFragment_to_navUbicationFragment"
@@ -58,7 +58,7 @@
     <fragment
         android:id="@+id/navUbicationFragment"
         android:name="com.protompany.protoconf.view.ui.fragments.UbicationFragment"
-        android:label="fragment_ubication"
+        android:label="ubication"
         tools:layout="@layout/fragment_ubication" >
         <action
             android:id="@+id/action_navUbicationFragment_to_ubicationDetailFragmentDialog"

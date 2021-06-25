@@ -4,6 +4,7 @@ package com.protompany.protoconf.view.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -30,7 +31,7 @@ class AuthorsAdapter(val authorsListener: AuthorsListener) : RecyclerView.Adapte
         Glide.with(holder.itemView.context)
                 .load(author.image)
                 .apply(RequestOptions.circleCropTransform())
-                .into(holder.ivItemAuthorImage)
+                .into(holder.ivItemImage)
 
         holder.itemView.setOnClickListener {
             authorsListener.onAuthorsClicked(author, position)
@@ -44,10 +45,14 @@ class AuthorsAdapter(val authorsListener: AuthorsListener) : RecyclerView.Adapte
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val ivItemAuthorImage = itemView.findViewById<TextView>(R.id.ivItemAuthorImage)
+        val ivItemImage = itemView.findViewById<ImageView>(R.id.ivItemAuthorImage)
         val tvItemAuthorName = itemView.findViewById<TextView>(R.id.tvItemAuthorName)
         val tvItemAuthorOccupation = itemView.findViewById<TextView>(R.id.tvItemAuthorOccupation)
 
     }
 
 }
+
+
+
+

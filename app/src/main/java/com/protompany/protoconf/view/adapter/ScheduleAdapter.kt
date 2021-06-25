@@ -48,7 +48,7 @@ class ScheduleAdapter(val scheduleListener: ScheduleListener) : RecyclerView.Ada
         val tvConferenceAuthor = itemView.findViewById<TextView>(R.id.tvItemScheduleConferenceAuthor)
         val tvConferenceHour = itemView.findViewById<TextView>(R.id.tvItemScheduleConferenceHour)
         //TODO images of authors
-        val tvItemAuthorImage = itemView.findViewById<TextView>(R.id.tvItemAuthorImage)
+        val tvItemAuthorImage = itemView.findViewById<TextView>(R.id.ivItemAuthorImage)
     }
 
 }

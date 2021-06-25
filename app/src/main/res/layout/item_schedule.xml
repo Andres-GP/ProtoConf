@@ -31,7 +31,7 @@
             android:orientation="vertical">
             <TextView
                 android:layout_marginTop="8dp"
-                android:id="@+id/tvItemScheduleTopic"
+                android:id="@+id/tvItemScheduleConferenceTopic"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/scheduleItem_1stItem_Topic"
@@ -40,7 +40,7 @@
                 android:ellipsize="end"
                 android:lines="1"/>
             <TextView
-                android:id="@+id/tvItemScheduleName"
+                android:id="@+id/tvItemScheduleConferenceAuthor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
@@ -48,7 +48,7 @@
                 android:textColor="@color/schedule_name_textColor"
                 android:textSize="@dimen/ScheduleItem_name"/>
             <TextView
-                android:id="@+id/tvItemScheduleHour"
+                android:id="@+id/tvItemScheduleConferenceHour"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"

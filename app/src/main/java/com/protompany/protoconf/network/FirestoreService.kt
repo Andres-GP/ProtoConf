@@ -2,8 +2,8 @@ package com.protompany.protoconf.network
 
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.FirebaseFirestoreSettings
-import model.Author
-import model.Conference
+import com.protompany.protoconf.model.Author
+import com.protompany.protoconf.model.Conference
 
 class FirestoreService {
     val firebaseFirestore = FirebaseFirestore.getInstance()
@@ -14,7 +14,7 @@ class FirestoreService {
     }
 
     fun getAuthors(callback: Callback<List<Author>>) {
-        firebaseFirestore.collection("conferences")
+        firebaseFirestore.collection("author")
             .orderBy("category")
             .get()
             .addOnSuccessListener { result ->
@@ -27,7 +27,7 @@ class FirestoreService {
     }
 
     fun getSchedule(callback: Callback<List<Conference>>) {
-        firebaseFirestore.collection("author")
+        firebaseFirestore.collection("conferences")
             .get()
             .addOnSuccessListener { result ->
                 for (doc in result) {

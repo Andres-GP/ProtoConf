@@ -1,4 +1,4 @@
-package com.protompany.protoconf.ui.activities
+package com.protompany.protoconf.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

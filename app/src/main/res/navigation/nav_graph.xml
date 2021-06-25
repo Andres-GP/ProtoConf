@@ -9,7 +9,7 @@
 
     <fragment
         android:id="@+id/navHomeFragment"
-        android:name="com.protompany.protoconf.ui.fragments.HomeFragment"
+        android:name="com.protompany.protoconf.view.ui.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/navScheduleFragment"
-        android:name="com.protompany.protoconf.ui.fragments.ScheduleFragment"
+        android:name="com.protompany.protoconf.view.ui.fragments.ScheduleFragment"
         android:label="fragment_schedule"
         tools:layout="@layout/fragment_schedule" >
         <action
@@ -40,7 +40,7 @@
 
     <fragment
         android:id="@+id/navAuthorsFragment"
-        android:name="com.protompany.protoconf.ui.fragments.AuthorsFragment"
+        android:name="com.protompany.protoconf.view.ui.fragments.AuthorsFragment"
         android:label="fragment_authors"
         tools:layout="@layout/fragment_authors" >
         <action
@@ -57,7 +57,7 @@
 
     <fragment
         android:id="@+id/navUbicationFragment"
-        android:name="com.protompany.protoconf.ui.fragments.UbicationFragment"
+        android:name="com.protompany.protoconf.view.ui.fragments.UbicationFragment"
         android:label="fragment_ubication"
         tools:layout="@layout/fragment_ubication" >
         <action
@@ -76,20 +76,20 @@
 
     <dialog
         android:id="@+id/scheduleDetailFragmentDialog"
-        android:name="com.protompany.protoconf.ui.fragments.ScheduleDetailDialogFragment"
+        android:name="com.protompany.protoconf.view.ui.fragments.ScheduleDetailDialogFragment"
         android:label="scheduleDetailFragmentDialog"
         tools:layout="@layout/fragment_schedule_detail_dialog"/>
 
     <dialog
         android:id="@+id/authorsDetailFragmentDialog"
-        android:name="com.protompany.protoconf.ui.fragments.AuthorsDetailDialogFragment"
+        android:name="com.protompany.protoconf.view.ui.fragments.AuthorsDetailDialogFragment"
         android:label="AuthorDetailFragmentDialog"
         tools:layout="@layout/fragment_authors_detail_dialog"/>
 
 
     <dialog
         android:id="@+id/ubicationDetailFragmentDialog"
-        android:name="com.protompany.protoconf.ui.fragments.UbicationDetailDialogFragment"
+        android:name="com.protompany.protoconf.view.ui.fragments.UbicationDetailDialogFragment"
         android:label="ubicationDetailFragmentDialog"
         tools:layout="@layout/fragment_ubication_detail_dialog"/>
 </navigation>

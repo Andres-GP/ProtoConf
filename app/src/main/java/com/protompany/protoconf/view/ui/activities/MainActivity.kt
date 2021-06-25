@@ -1,13 +1,8 @@
-package com.protompany.protoconf
+package com.protompany.protoconf.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.google.firebase.firestore.FirebaseFirestore
-import model.Author
-import model.Conference
-import org.json.JSONArray
-import org.json.JSONObject
-import java.util.*
+import com.protompany.protoconf.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

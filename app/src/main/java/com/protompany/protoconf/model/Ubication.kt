@@ -1,4 +1,4 @@
-package model
+package com.protompany.protoconf.model
 
 class Ubication {
     val placeName = ""
